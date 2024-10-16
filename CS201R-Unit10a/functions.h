@@ -8,4 +8,7 @@ using namespace std;
 
 
 void readFile(ifstream&,LinkedList&);
-
+void exampleList();
+void exampleOrdered();
+void exampleStack();
+void exampleQueue();

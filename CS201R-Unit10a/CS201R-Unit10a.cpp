@@ -1,14 +1,11 @@
 #include "functions.h"
+//https://github.com/UMKC-CS201/CS201R-Unit10a
 
 int main()
 {
-    ifstream inFile;
-    inFile.open("data.txt");
-    if (!inFile.is_open()) {
-        cout << "Error opening files";
-        return 1;
-    }
-    LinkedList list1;
-    readFile(inFile, list1);
-    list1.printList();
+    exampleList();
+    //exampleOrdered();
+    //exampleStack();
+    //exampleQueue();
+
 }
