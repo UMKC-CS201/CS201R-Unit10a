@@ -1,0 +1,19 @@
+P,Bunny,Bugs,54
+P,Sam,Yosemite,68
+P,Harris,Kamala,59
+P,Jones,Bob,BB
+P,Stefani,Gwen,54
+S,Einstein,Albert,143,4.9
+S,Parsons,Jim,42,4.2
+S,Mouse,Mickey,91,3.5
+S,Duck,Daffy,84,2.5
+S,Kenobi,Obiwan,156,4.9
+S,Squarepants,Spongebob,5,2.3
+T,Rabbit,Roger,84,20,10.50,Physical Education
+T,Sullivan,James,29,30,15.15,Management
+T,Lightyear,Buzz,45,40,20.15,Astronomy
+T,Wazowski,Mike,36,35,17.50,Computer Science
+E,Mouse,Minne,24,40,15.50,14
+E,Pig,Porky,32,30,12,7
+E,Dinkley,Velma,25,40,14.50,20.6
+E,Griffin,Stewie,1,20,14.50,27.5
