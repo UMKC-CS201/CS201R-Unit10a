@@ -24,8 +24,8 @@ void readFile(ifstream& inFile, LinkedList& L) {
         tempPerson.fname = row[2];
         try {
             tempPerson.age = stoi(row[3]);
-            L.addNode(tempPerson);
-            //L.addNodeOrdered(tempPerson);
+            //L.addNode(tempPerson);
+            L.addNodeOrdered(tempPerson);
         }
         catch (logic_error) {
             cout << "error in input" << endl;
@@ -51,6 +51,7 @@ void exampleList() {
     //delete nodes from list1
     list1.delNode("Kenobi");
     list1.delNode("Bunny");
+    list1.delNode("WHO?");
     list1.delNode("Griffin");
 
     //print list1 - check output
@@ -70,12 +71,21 @@ void exampleOrdered () {
  
     LinkedList list2;
     readFile(inFile, list2);
+    dataType tempPerson;
+    tempPerson.type = 'P';
+    tempPerson.lname = "Gaga";
+    tempPerson.fname = "Lady";
+    tempPerson.age =  50;
+    list2.addNodeOrdered(tempPerson);
+    //print list2 - check output
+    list2.printList();
 
     //delete nodes from list2
     list2.delNode("Kenobi");
     list2.delNode("Bunny");
+    list2.delNode("WHO?");
     list2.delNode("Sullivan");
-    list2.delNode("Wazowski");
+    list2.delNode("Griffin");
 
     //print list2 - check output
     list2.printList();

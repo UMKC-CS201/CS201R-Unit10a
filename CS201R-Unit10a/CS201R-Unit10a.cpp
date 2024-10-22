@@ -4,7 +4,7 @@
 int main()
 {
     exampleList();
-    //exampleOrdered();
+    exampleOrdered();
     //exampleStack();
     //exampleQueue();
 

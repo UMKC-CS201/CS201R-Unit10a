@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 struct dataType {
@@ -22,7 +23,7 @@ private:
 public:
 	LinkedList();
 	LinkedList(dataType);
-	~LinkedList();
+	~LinkedList();  //destructor
 	void addNode(dataType d);
 	void addNodeOrdered(dataType d);
 	void delNode(string name);
